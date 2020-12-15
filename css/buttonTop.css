@@ -1,0 +1,19 @@
+
+#scroltop{
+	cursor: pointer;
+	position: fixed;
+	text-align: center;
+	width: 100px;
+	right: 0;
+	margin-top: 300px;
+	z-index: 80000;
+	color: rgb(90, 121, 136);
+	transition:1s;
+	
+	
+}
+#scroltop :hover{
+    transition:1s;
+	color: rgb(0, 136, 204);
+	
+}

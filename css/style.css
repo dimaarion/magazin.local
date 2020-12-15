@@ -1,0 +1,43 @@
+html body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #f7f3f1;
+	text-align: center;
+	}
+body-bg{
+	background-color: #803f1f;
+}
+a{
+	text-decoration: none;
+}
+
+.bd{
+	display: inline-block;
+	max-width: 1100px;
+	height: 100%;
+}
+
+.footer{
+	text-align: center;
+    height: 150px;
+	background-color: #a1daf7;
+	
+	
+}
+.footer p{
+	color: #506d7c;
+}
+#dop{
+	overflow: hidden;
+	height: 270px;
+}
+#dop div img{
+	display: inline-block;
+	height: 250px;
+	
+	
+}
+article img{
+	
+	cursor: pointer;
+}

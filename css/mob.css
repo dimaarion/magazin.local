@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px){
+        article{
+            margin-top: 45px;
+        }
+        
+    
+}
+@media screen and (max-width: 700px){
+        
+        .img-cont img{
+            width: 80%;
+            height: auto;
+        }
+    
+}
+
+   

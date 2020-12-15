@@ -1,0 +1,174 @@
+/*нов стили*/
+.pag{
+	height: 50px;
+}
+.head{
+	background-color: #a1daf7;
+	height: 100px;
+
+}
+    .menu-top{
+		margin-top: -45px;
+	}
+	.menu-top ul li ul{
+	
+		display: none;
+		position: absolute;    
+		background-color: #ffffff;
+		border-radius: 5px;
+		box-shadow: 0px 0px 4px #cccccc; 
+		z-index:10000;
+		min-width: 210px;
+	}
+    .top:hover .menu_pod{
+		
+		display: block;
+	}
+	.menu-top ul li a{
+		font-size: 19pt;
+        font-family: 'Kurale', serif;
+        color: #407590;
+	}
+	.menu-top ul li ul li a{
+		font-size: 16pt;
+		margin-left: -5px;
+       
+	}
+	.menu-top ul li ul li{
+		margin-left: -19px;
+       
+	}
+	.menu-top ul li a:hover{
+    color:#EB7123;
+   }
+	
+
+/*нов стили*/
+.pages{
+	text-align:center;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.pages li{
+	display:inline-block;
+	
+	
+}
+
+.pages a{
+	display:block;
+	padding:5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius:2px;
+    background: #407590;
+    color: #ffffff;
+	}
+.pages li a:hover{
+	color:#ffffff;
+	background-color:#ec7616;
+	text-decoration: none;
+}
+
+#log img{
+	margin-top: 15px;
+	
+	
+	
+	
+}
+#log{
+	margin-right: 715px;
+}
+
+
+
+.menu{
+	margin-left:125px;
+	display: inline-block;
+	
+}
+.menu ul{
+    
+    margin-top:-30px;
+	position: absolute;
+         }
+.menu ul a{
+    
+    
+    padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	display: block;
+	font-family: 'Kurale', serif;
+	color:#407590;
+		
+}
+.menu ul li{
+
+	display: inline-block;
+
+}
+.menu ul li ul{
+	margin: 0px;
+	padding: 0px;
+	width: 180px;
+	background-color: #ffffff;
+	text-align: left;
+	opacity: 0;
+	border-radius: 5px;
+    box-shadow: 0px 0px 4px #cccccc;
+	
+	
+}
+.menu ul li ul li{
+	padding-left: 5px;
+	font-size: 16pt;
+}
+.menu ul a:hover{
+    color:#EB7123;
+	display: inline-block;
+
+}
+
+.page{
+	width: auto;
+	height: 50px;
+	
+
+}
+.page ul li{
+    display: inline-block;
+    list-style: none;
+	border-radius: 5px;
+	
+}
+.page ul li a{
+	padding: 5px;
+	background-color: #C5DBE7;
+	border-radius: 5px;
+	color:#407590;
+	
+}
+.page ul li a:hover{
+	background-color: #EF9358;
+}
+
+
+@media screen and (max-width: 1000px) { 
+#menu_left{
+	display: none;
+}
+.menu-top{
+
+	display: none;
+}
+
+#menu img{
+	width: 200px;
+}
+
+}
+
+

@@ -1,0 +1,14 @@
+article img{
+   margin: 10px;
+   transition:0.2s ;
+   -webkit-transition:0.2s ;
+   -moz-transition:0.2s ;
+   -ms-transition:0.2s ;
+   -o-transition:0.2s ;
+}
+article img:hover{
+    box-shadow: -5px 5px 5px #333333;
+}
+.img-cont{
+    height: 100px;
+}

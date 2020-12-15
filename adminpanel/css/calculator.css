@@ -1,0 +1,53 @@
+.calculatorMenu{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+}
+.calculatorMenu a{
+   display: block;
+    
+}
+ a:hover{
+    text-decoration: none;
+    
+}
+.calculatorMenu li{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    background-color: #cccccc;
+    margin-bottom: 2px;
+    padding-left: 20px;
+}
+.calculatorMenu li:hover{
+    background-color: lightblue;
+}
+.calculatorMenu li ul{
+    display: none;
+    position: absolute;
+    margin-top: -24px;
+    z-index: 8000;
+    margin-left: 111px;
+    text-align: left;
+    padding: 0px;
+    padding-left: 20px;
+    width: 220px;
+}
+.calculatorMenu li ul li{ 
+   
+   position: relative;
+}
+.calculatorMenu li ul li ul{
+    display: none;
+    position: absolute;
+    margin-left: 161px;
+    padding-left: 20px;
+    width: 200px;
+}
+.calculatorMenu li ul li ul li{
+    position: relative;
+}
+
+.calculatorMenu li:hover > ul{
+    display: block;
+}

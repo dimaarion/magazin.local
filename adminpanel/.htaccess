@@ -1,0 +1,12 @@
+#AuthType Basic
+#AuthName "Password Protected Area"
+#AuthUserFile 	/home/users/d/dimaarion/domains/fk-i-s.ru/adminpanel/.htpasswd
+#Require valid-user
+
+RewriteEngine On
+RewriteRule ^([a-z-_A-Z_0-9]+)$ ?page=$1
+RewriteRule ^([a-z-_A-Z]+)/([a-z-_A-Z_0-9]+)$ ?page=$1&nmenu=$2
+RewriteRule ^([a-z-_A-Z]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9]+)$ ?page=$1&nmenu=$2&id=$3
+RewriteRule ^([a-z-_A-Z]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9]+)$ ?page=$1&nmenu=$2&id=$3&id2=$4
+RewriteRule ^([a-z-_A-Z]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9\.0-9]+)$ ?page=$1&nmenu=$2&id=$3&id2=$4&id3=$5
+RewriteRule ^([a-z-_A-Z]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9]+)/([a-z-_A-Z_0-9\.0-9]+)/([a-z-_A-Z_0-9\.0-9]+)$ ?page=$1&nmenu=$2&id=$3&id2=$4&id3=$5&id4=$6

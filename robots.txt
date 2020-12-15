@@ -1,0 +1,28 @@
+User-agent: Yandex
+Allow: /
+Disallow: /template/
+Disallow: /adminpanel/
+Disallow: /img/
+Disallow: /image/
+Disallow: /js/
+Disallow: /index.php
+Disallow: /index.php?
+Disallow: /?
+Disallow: /file/
+Disallow: /%
+
+
+User-agent: *
+Allow: /
+Sitemap: https://magazin.local/sitemap/sitemap.xml
+Disallow: /template/
+Disallow: /adminpanel/
+Disallow: /img/
+Disallow: /image/
+Disallow: /js/
+Disallow: /index.php
+Disallow: /index.php?
+Disallow: /?
+Disallow: /file/
+Disallow: /%
+Host:https://magazin.local/

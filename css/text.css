@@ -1,0 +1,299 @@
+/* CSS Document */
+/* */
+.content{
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px #cccccc;
+	background-color:#ffffff;
+	margin-bottom: 20px;
+}
+.detailed{
+	 padding: 4px 10px 4px 10px;
+	 text-decoration: underline;
+	 font-size: 15pt;
+	 color:#0086A5;
+	 transition: 0.5s;
+}
+.detailed:hover{
+	text-decoration: none;
+	
+	color:#FF7F00;
+	text-decoration: underline;
+}
+.h{
+	color: #0088cc;
+	font-weight: bold;
+	font-family: Noto Serif;
+}
+
+/**/
+.context{
+	display: inline-block;
+	width: 80%;
+	padding-left: 15px;
+}
+.bot{
+	width: auto;
+	height: 30px;
+}
+.reklama a{
+    color :#469ac5;
+}
+.reklama a:hover{
+    color :#407590;
+}
+.text{
+	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px #cccccc;
+	background-color:#ffffff;
+	width: auto;
+	text-align: left;
+	padding: 15px;
+	height: auto;
+}
+.text ul li{
+	list-style: none;
+	 
+}
+
+.text .krug li{
+	list-style: circle;
+}
+p a{
+	color: #0BA3F0;
+	
+}
+p a:hover{
+	border-bottom: solid 1px;
+}
+
+
+
+
+.image_kn{
+   padding-right: 20px;
+   padding-top: 10px;
+  
+}
+
+.image_kn img{
+	float: left;
+	border-radius: 5px;
+	height: 250px;
+	width: 160px;
+
+}
+.description_kn{
+	width: auto;
+	margin-left: 175px;
+	margin-top:-250;
+	min-height: 250px;
+    z-index: 0;
+}
+.description{
+	width: auto;
+	margin-left: 175px;
+    z-index: 0;
+
+}
+
+.link{
+	width: auto;
+	text-align: right;
+}
+.link a{
+
+	 border-radius: 5px;
+	 padding: 3px;
+	 background-color: #ec7616;
+	 text-decoration: none;
+	 font-size: 13pt;
+     color:#ffffff;
+     
+  
+}
+.link a:hover{
+	background-color: #337fcc;
+	text-decoration: none;
+	color:#ffffff;
+}
+   .link2{
+   	padding-top: 10px;
+	width: auto;
+	text-align: left;
+}
+.link2 a{
+	 
+	 border-radius: 5px;
+	 padding: 3px;
+	 background-color: #ec7616;
+	 text-decoration: none;
+	 font-size: 13pt;
+     color:#ffffff;
+  
+}
+.link2 a:hover{
+	  background-color: #337fcc;
+	  text-decoration: none;
+	  color:#ffffff;
+   }
+
+.par{padding-left: 40px;}
+
+
+h1, h2{
+	color: #0088cc;
+	font-weight: bold;
+	font-family: Noto Serif;
+	margin: 0px;
+	text-align: center;
+	font-size: 20pt;
+}
+
+h3{
+	font-weight: normal;
+	font-family: Noto Serif;
+	color: #3399cc;
+	color: #4d8190;
+	text-align: center;
+	font-size: 17pt;
+}
+h4{
+	text-align: center;
+	font-size: 14pt;
+}
+p{
+	font-size: 14pt;
+	color: #0d0d0c;
+	font-family: Segoe UI;
+}
+
+#ravno{
+	cursor: pointer;
+	border-radius: 5px;
+	width: 45px;
+	background-color: #c7ecff;
+}
+#imt{
+
+	font-size: 10pt;
+	border: solid 1px #61687a;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 10px;
+	background-color: #ffffff;	
+}
+#calculator,
+#calculator td{
+    font-weight: normal;
+	font-family: Noto Serif;
+	color: #282320;
+}
+
+
+.sport_log{
+	font-size: 14pt;
+	position: relative;
+	font-family: Myriad Pro;
+	color: #ffffff;
+}
+.sport_rg{
+	position: absolute;
+}
+
+.rek, #scet {
+	width: auto;
+	text-align: left;
+	
+}
+
+ .detsport{
+ 	margin-top: -200px;
+ 	position: absolute;
+ 	width: 500px;
+ 	margin-left: 300px;
+ }
+ .detsporttext{
+ 	text-align: center;
+ 	font-size: 20pt;
+ }
+ #rek{
+	background-color:#a1daf7;
+	color:firebrick;
+	position: absolute;
+	margin-top: -200px;
+	width: 200px;
+}
+@media screen and (max-width: 1230px) { 
+
+.kn{
+   width: 15%;
+   margin-bottom: 100px;
+   	
+}
+
+}
+
+@media screen and (max-width: 940px) { 
+
+.kn{
+   width: 14.5%;
+   margin-bottom: 100px;
+		
+}
+
+}
+@media screen and (max-width: 768px) { 
+.discript_kn_lit{
+	display: none;
+}
+.image_kn img{
+	float: none;
+}
+.description_kn{
+	
+	
+	margin-left: 5px;
+}
+.description{
+	margin-left: 0px;
+}
+.kn{
+  padding: 3px;
+  margin-bottom: 0px;
+		
+}
+#t1{
+	font-size: 6pt;
+}
+
+
+}
+@media screen and (min-width: 1440px) { 
+
+	p{
+		font-size:13pt;
+	}
+
+
+}
+
+@media screen and (max-width: 768px) { 
+
+	
+.detsport{
+	display: none;
+}
+}
+@media screen and (max-width: 600px) { 
+
+.description_kn{
+	
+	height: auto;
+
+}	
+	
+}
+
+

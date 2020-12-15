@@ -1,0 +1,25 @@
+.new_menu_category{
+	cursor: pointer;
+	display: none;
+}
+#new_menu_category{
+	overflow: scroll;
+	height: 200px;
+	display: none;
+}
+.new_menu_category_no{
+	cursor: pointer;
+	}
+.new_menu_category_yes{
+	cursor: pointer;	
+}
+.new_menu_category_linck{
+display: none;
+}
+.new_menu_parent{
+display: none;
+}
+.new_menu_art_bl{
+	overflow: scroll;
+	height: 400px;
+}

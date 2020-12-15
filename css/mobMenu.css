@@ -1,0 +1,25 @@
+#menuMob{
+    
+    padding: 5px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #cccccc;
+    font-size: 14pt;
+    height: auto;
+}
+#buttonMob{
+        color: rgb(0, 136, 204);
+        width: 100px;
+}
+#buttonMob:hover{
+       color: rgb(235, 113, 35);
+}
+@media screen and (min-width: 1000px){
+	#buttonMob, #menuMob{
+		display: none;
+    }
+    article{
+        margin-top: 0px;
+    }
+    
+}
