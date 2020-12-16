@@ -26,7 +26,7 @@ $(document).ready(function () {
 		'Ч', 'Ш', 'Щ', 'Ь', 'Ы', 'Ъ',
 		'Э', 'Ю', 'Я',' '
 	]
-	
+
 	let en = en_m.concat(en_m, num);
 	let ru = ru_m.concat(ru_b, num);
 	$('#names').bind('input', function (e) {
@@ -45,7 +45,7 @@ $(document).ready(function () {
 					d[i] = en[dfe[i]];
 				}
 			}
-			if (d.join('') == 'Glavna' || d.join('') == 'glavna') {
+			if (d.join('') == 'Glavnaya' || d.join('') == 'glavnaya') {
 				return '/';
 			} else {
 				return d.join('');

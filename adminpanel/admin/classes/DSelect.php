@@ -23,7 +23,7 @@ class DSelect
         $this->db->Disconnect();
         return $arr;
         } catch (\Throwable $th) {
-            echo 'Ошибка queryRow';
+
         }
     }
 
@@ -35,9 +35,9 @@ class DSelect
         $this->db->Disconnect();
         return $arr;
         } catch (\Throwable $th) {
-           
+
         }
-      
+
     }
 
     public function queryRowJ($where,$id)
@@ -59,7 +59,7 @@ class DSelect
         } catch (\Throwable $th) {
         }
     }
-    
+
     public function queryRowsLimit($where,$id,$a, $b)
     {
         try {
